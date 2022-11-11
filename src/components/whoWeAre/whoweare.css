@@ -1,0 +1,82 @@
+.whoWeAreWrapper {
+  padding: 1em 8em;
+  display: flex;
+  align-items: center;
+  gap: 4em;
+  margin-top: 5em;
+}
+
+.whoWeAreImage {
+  flex: 1;
+}
+
+.whoWeAreImage img {
+  width: 100%;
+
+  border-radius: 18px;
+  object-fit: cover;
+}
+
+.whoWeAreText {
+  flex: 1;
+}
+
+.whoWeAreText h1 {
+  font-size: 38px;
+  margin-bottom: 15px;
+}
+
+.whoWeAreText p {
+  line-height: 1.6em;
+}
+
+.whoWeAreCheckLists {
+  margin-top: 20px;
+}
+
+.whoWeAreItem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.whoWeAreItem .Icon {
+  font-size: 2em;
+}
+
+.whoWeAreItemSpan {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  background-color: rgb(240, 233, 221);
+  padding: 14px;
+}
+
+.whoWeAreItemSpan span {
+  font-size: 18px;
+}
+
+.whoWeAreItemSpan .icon {
+  font-size: 18px;
+}
+
+@media (max-width: 980px) {
+  .whoWeAreWrapper {
+    padding: 1em 8em;
+    display: block;
+    align-items: center;
+    gap: 4em;
+    margin-top: 5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .whoWeAreWrapper {
+    padding: 1em 2em;
+    display: block;
+    align-items: center;
+    gap: 4em;
+    margin-top: 5em;
+  }
+}

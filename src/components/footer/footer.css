@@ -1,0 +1,99 @@
+.footerWrapper {
+}
+
+.footerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4em;
+  align-items: center;
+  padding: 1em 8em;
+}
+
+.footerInitial {
+  flex: 0.4;
+}
+
+.footerInitial h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.footerInitial p {
+  line-height: 1.8em;
+}
+
+.footerInitialIcons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: rgb(165, 165, 17);
+  font-size: 18px;
+}
+
+.footerLastDiv {
+  flex: 0.6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footerLastDiv .firstColumn {
+  top: 0;
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.footerLastDiv .firstColumn h2 {
+  margin-bottom: 10px;
+}
+
+.footerLastDiv .firstColumn ul {
+  list-style: none;
+}
+
+.footerLastDiv .firstColumn ul li {
+  padding: 10px 0;
+  cursor: pointer;
+  color: gray;
+  transition: all 0.5s ease;
+}
+.footerLastDiv .firstColumn ul li:hover {
+  color: black;
+}
+
+/* .ty {
+  margin-top: 1em;
+} */
+
+.footerLastElement {
+  margin-top: 4em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .footerContainer {
+    display: block;
+    padding: 1em 2em;
+  }
+
+  .footerInitial {
+    margin-bottom: 25px;
+  }
+  .footerLastDiv {
+    display: block;
+    text-align: center;
+  }
+
+  .footerLastDiv .firstColumn {
+    margin-bottom: 20px;
+  }
+}

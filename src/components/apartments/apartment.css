@@ -1,0 +1,116 @@
+.apartmentWrapper {
+  margin-top: 2em;
+  padding: 1em 8em;
+}
+
+.apartmentTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.apartmetTopLeft {
+}
+
+.apartmetTopLeft h1 {
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.apartmetTopLeft p {
+  color: gray;
+  line-height: 1.8em;
+}
+
+.apartmentTopRight {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.apartmentTopRight .topRightIcon {
+  font-size: 25px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.apartmentTopRight .topRightIcon:hover {
+  background-color: black;
+  color: white;
+}
+
+.aprtmentComponents {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cardComponent {
+  flex: 0.75;
+  padding: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.cardComponent img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+}
+
+.cardText {
+  padding: 10px;
+}
+
+.cardText p {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.cardText span {
+  font-weight: 500;
+  color: gray;
+}
+
+.cardLocation {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardLike {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .apartmentTop {
+    display: block;
+  }
+  .apartmentTopRight {
+    display: none;
+  }
+
+  .apartmetTopLeft {
+    text-align: center;
+  }
+
+  .aprtmentComponents {
+    display: block;
+    gap: 20px;
+  }
+
+  .cardComponent {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .apartmentWrapper {
+    margin-top: 2em;
+    padding: 1em 2em;
+  }
+}
